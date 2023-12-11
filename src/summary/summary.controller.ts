@@ -6,5 +6,7 @@ export class SummaryController {
   constructor(private readonly summaryService: SummaryService) {}
 
   @Get()
-  getSummary() {}
+  getSummary() {
+    return this.summaryService.calculateSummary();
+  }
 }
