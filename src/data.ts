@@ -29,6 +29,14 @@ export const data: Data = {
       updated_at: new Date(),
       type: ReportType.INCOME,
     },
+    {
+      id: '7',
+      source: 'Lucky Charm',
+      amount: 330,
+      created_at: new Date(),
+      updated_at: new Date(),
+      type: ReportType.EXPENSE,
+    },
   ],
 };
 
